@@ -1,0 +1,8 @@
+<div [ngSwitch]="step.id">
+  <app-block-a *ngSwitchCase="'blockA'" #ref></app-block-a>
+  <app-block-b *ngSwitchCase="'blockB'" #ref></app-block-b>
+  <app-block-c *ngSwitchCase="'blockC'" #ref></app-block-c>
+  <app-block-d *ngSwitchCase="'blockD'" #ref></app-block-d>
+  <app-block-e *ngSwitchCase="'blockE'" #ref></app-block-e>
+  <div *ngSwitchDefault>MISSING</div>
+</div>
